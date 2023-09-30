@@ -1,5 +1,5 @@
 # Projet_Recommandation_Livres
-Dabzat Samira, Haroun Khadidja
+Dabzat Samira, Haroun Boukar Khadidja
 
 Le projet de Recommandation de Livres que nous avons développé vise à simplifier l'exploration du monde littéraire pour les utilisateurs de la plateforme de lecture. Dans un univers en constante expansion de livres, il est parfois difficile de savoir par où commencer ou de trouver le prochain livre qui captivera notre imagination. C'est là que notre outil entre en jeu.
 Nous avons conçu ce projet en combinant des compétences en scraping de données, en analyse textuelle pour créer un système de recommandation de livres personnalisé. Il repose sur une base de données de livres provenant de Goodreads, plus précisément dans la section ‘what do read next’. Notre objectif était de créer un moyen simple et efficace pour les lecteurs de découvrir de nouveaux livres qui correspondent à leurs préférences de lecture plus  .
