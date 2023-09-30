@@ -16,10 +16,12 @@ Après avoir collecté ces informations de base, nous allons plus loin en accéd
 Une fois les données extraites, nous passons à la constitution de bases de données structurées à l'aide de la bibliothèque Pandas. 
 La première base de données contient les premières informations enregistrés telles que la couverture, le titre, l’auteur et le lien de chaque livre sur les cinq pages. La deuxième base contient les informations extraites à partir des liens de chaque livre telles que le résumé, la note et le genre.
 Les données dans les deux data bases sont ensuite nettoyées et fusionnées dans une unique base de données ‘total_data’, ce qui nous permettra de les manipuler plus efficacement dans les étapes suivantes de notre projet.
+Nous avons inclus une fonctionnalité essentielle. Nous avons importé un fichier CSV contenant la liste des livres déjà lus par l'utilisateur. Cette étape est cruciale pour garantir que le système de recommandation dans l'étape suivante n'inclut pas les livres que l'utilisateur a déjà parcourus, offrant ainsi des recommandations plus pertinentes et personnalisées.
 
 ## Partie 3 : Création du Système de Recommandation
 Cette étape est cruciale pour le projet, car elle consiste à élaborer un système de recommandation efficace pour suggérer des livres similaires en fonction des préférences de l'utilisateur.
 Nous utilisons la similarité cosinus pour mesurer à la fois la similitude entre les résumés des livres et entre les genres des livres. En attribuant des poids égaux aux recommandations basées sur les résumés et aux recommandations basées sur les genres, nous pouvons combiner ces deux mesures pour obtenir des recommandations finales. Cela permet aux utilisateurs de découvrir de nouveaux livres pertinents à ses préférences et qui correspondent à leurs goûts littéraires.
+De plus, nous avons créé une interface avec Tkinter, qui permet aux utilisateurs d'explorer facilement les recommandations générées par notre système.
 
 # Conclusion
 En conclusion, notre projet de Recommandation de Livres a été créé dans le but de simplifier et  faciliter la découverte de nouvelles histoires pertinentes aux goûts des utilisateurs. Au cours de ce projet, nous avons relevé plusieurs défis, du scraping de données à la création d'un système de recommandation basé sur la similarité textuelle. Nous avons cherché à offrir aux utilisateurs une expérience transparente et interactive, où ils peuvent simplement saisir le titre d'un livre qui les intéresse et recevoir des recommandations instantanées.
